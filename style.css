@@ -1,0 +1,106 @@
+:root {
+    --primary-color: #D0290C;
+    --background-color: whitesmoke;
+    --text-color: black;
+
+    --robot-gif-width: 75vw;
+    --team-img-width: 288px;
+    --team-img-height-ratio: 1.23;
+}
+
+body {
+    min-height:100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+header, footer{
+    margin: 0px;
+    margin-bottom: 100px;
+    text-align: left;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+footer{
+    margin-bottom: 0px;
+    width: 100%;
+    height: 150px;
+}
+
+.row{
+    margin: 0px;
+}
+
+footer p{
+    margin: auto;
+}
+
+footer .btn{
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: var(--primary-color);
+}
+
+nav h4,
+nav p {
+    margin: 0px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#chopsticks {
+    background-image: url('./img/Chopsticks.gif');
+    background-size: var(--robot-gif-width);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: var(--robot-gif-width);
+    margin: auto;
+}
+
+.container{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#chopsticks h1{
+    font-size: 60px;
+    -webkit-text-stroke: 2px var(--primary-color);
+    text-emphasis: bold;
+}
+
+hr{
+    outline: var(--text-color) 2px solid;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.card{
+    display: inline-block;
+    margin: 5px;
+}
+
+.card-img-top{
+    width: var(--team-img-width);
+    height: calc(var(--team-img-width) * var(--team-img-height-ratio));
+}
