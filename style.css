@@ -76,6 +76,7 @@ h2 {
     height: 80vh;
     width: var(--robot-gif-width);
     margin: auto;
+    margin-top: auto;
 }
 
 .container{
@@ -89,10 +90,15 @@ h2 {
     text-emphasis: bold;
 }
 
-hr{
+hr:not(.dropdown-divider){
     outline: var(--text-color) 2px solid;
     border-radius: 2px;
     width: 100%;
+}
+
+#teaser{
+    width: 80%;
+    font-size: small;
 }
 
 .card{
@@ -103,4 +109,14 @@ hr{
 .card-img-top{
     width: var(--team-img-width);
     height: calc(var(--team-img-width) * var(--team-img-height-ratio));
+}
+
+.robot-picture{
+    border-radius: 30px;
+    width: 40%;
+}
+
+.robot-desc{
+    text-align: left;
+    margin: auto;
 }
