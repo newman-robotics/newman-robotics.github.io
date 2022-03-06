@@ -4,7 +4,7 @@
     --text-color: black;
 
     --robot-gif-width: 76vw;
-    --team-img-width: 288px;
+    --team-img-width: 264px;
     --team-img-height-ratio: 1.23;
 }
 
@@ -104,6 +104,7 @@ hr:not(.dropdown-divider){
 .card{
     display: inline-block;
     margin: 5px;
+    width: var(--team-img-width);
 }
 
 .card-img-top{
