@@ -3,6 +3,11 @@ function GoToGithub()
     window.location.href = "https://github.com/newman-robotics";
 }
 
+function GoToEmail()
+{
+    window.location.href = "mailto:clockworkcardinals9725@gmail.com";
+}
+
 async function fetchHtmlAsText(url) {
     return await (await fetch(url)).text();
 }
