@@ -32,3 +32,7 @@ function Switch(type)
             element.classList = "none";
     }
 }
+
+$(window).on("load", function(){
+    $(".loader-wrapper").fadeOut("slow");
+});
