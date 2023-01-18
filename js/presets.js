@@ -35,4 +35,5 @@ function Switch(type)
 
 $(window).on("load", function(){
     $(".loader-wrapper").fadeOut("slow");
+    $("body").css({"overflow":"auto"});
 });
