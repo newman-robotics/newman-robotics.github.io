@@ -163,3 +163,11 @@ a{
     overflow-y: scroll;
     width: fit-content;
 }
+
+.list-group-item:hover{
+    background-color: var(--deep-background-color);
+}
+
+.grp_active:hover{
+    background-color: var(--primary-color);
+}
